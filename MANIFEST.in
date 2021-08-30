@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include .gitignore
+
+recursive-include twistwanTB *
+
+global-exclude *.pyc
+global-exclude .DS_Store
+global-exclude .idea
+global-exclude __pycache__
+
+prune dev
+prune examples
